@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MincongSitu_GreenFlag</string>
+    <string name="green_flag_customers_can">Green Flag customers can</string>
+    <string name="create_an_account_to_access">create an account to access</string>
+    <string name="detail1">Car health updates</string>
+    <string name="detail2">Request a rescue online</string>
+    <string name="detail3">Policy information</string>
+    <string name="green_flag_customers_can_create_an_account_to_access">Green Flag Customers can create an account to access</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="your_password_should_have_a_minimum_of_8_characters_and_contain_at_least_one_number_one_uppercase_and_one_lowercase_letter_you_can_use_special_characters">Your password should have a minimum of 8 characters and contain at least one number, one uppercase and one lowercase letter. You can use special characters.</string>
+    <string name="next">Next</string>
+    <string name="an_account_already_exists_with_this_email">An account already exists with this email</string>
+    <string name="re_enter_password">Re-enter password</string>
+    <string name="password_error">One of the passwords you entered is invalid</string>
+    <string name="password_mismatch">Your passwords don\'t match</string>
+    <string name="phrase_1">Create an Account</string>
+    <string name="title_activity_registered">Registered</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="thank_you_for_choosing_greenflag">Thank you for choosing GreenFlag!</string>
+    <string name="main_page">Main Page</string>
+</resources>

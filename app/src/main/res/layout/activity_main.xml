@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    android:padding="50dp">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo_green_flag"
+        android:paddingBottom="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/intro"/>
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/green_flag_customers_can_create_an_account_to_access"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/museo_sans_500"
+        android:paddingTop="60dp"
+        app:layout_constraintTop_toBottomOf="@id/iv_logo"
+        app:layout_constraintStart_toStartOf="@id/iv_logo"
+        app:layout_constraintEnd_toEndOf="@id/iv_logo"/>
+
+    <ImageView
+        android:id="@+id/check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tick"
+        app:layout_constraintTop_toTopOf="@id/detail1"
+        app:layout_constraintEnd_toStartOf="@id/detail1"
+        app:layout_constraintStart_toStartOf="@id/intro"
+        app:layout_constraintBottom_toBottomOf="@id/detail1"/>
+
+    <TextView
+        android:id="@+id/detail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detail1"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/museo_sans_300"
+        app:layout_constraintTop_toBottomOf="@id/intro"
+        app:layout_constraintStart_toEndOf="@id/check1" />
+
+    <ImageView
+        android:id="@+id/check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tick"
+        app:layout_constraintBottom_toBottomOf="@id/detail2"
+        app:layout_constraintStart_toStartOf="@id/intro"
+        app:layout_constraintTop_toTopOf="@id/detail2"/>
+
+    <TextView
+        android:id="@+id/detail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detail2"
+        android:textColor="@color/white"
+        android:fontFamily="@font/museo_sans_300"
+        android:textSize="20sp"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/detail1"
+        app:layout_constraintStart_toEndOf="@id/check2"
+        app:layout_constraintBottom_toTopOf="@id/detail3"
+        />
+
+    <ImageView
+        android:id="@+id/check3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tick"
+        app:layout_constraintBottom_toBottomOf="@id/detail3"
+        app:layout_constraintStart_toStartOf="@id/check2"
+        app:layout_constraintTop_toTopOf="@id/detail3"
+        />
+
+    <TextView
+        android:id="@+id/detail3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/detail3"
+        android:textColor="@color/white"
+        android:fontFamily="@font/museo_sans_300"
+        android:textSize="20sp"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/detail2"
+        app:layout_constraintStart_toEndOf="@id/check2"
+/>
+
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_an_account"
+        android:fontFamily="@font/museo_sans_500"
+        android:textSize="20sp"
+        android:translationZ="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btn_register"
+        app:layout_constraintBottom_toBottomOf="@id/btn_register"/>
+
+    <ImageButton
+        android:id="@+id/btn_register"
+        android:layout_width="307dp"
+        android:layout_height="62dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/gradient_button_background" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
